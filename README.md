@@ -61,18 +61,6 @@ This project follows a layered architecture:
 
 ---
 
-## 🗄️ Database Schema (PostgreSQL)
-
-CREATE TABLE studentinfo (
-    student_ID SERIAL PRIMARY KEY,
-    student_Name VARCHAR(100) NOT NULL,
-    age INT CHECK (age >= 18),
-    course VARCHAR(100),
-    student_email VARCHAR(100) UNIQUE
-);
-
----
-
 ## ▶️ How to Run the Project
 
 ### 1️⃣ Prerequisites
